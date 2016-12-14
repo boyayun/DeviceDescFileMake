@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutWidget</class>
+ <widget class="QDialog" name="AboutWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 75 20pt &quot;宋体&quot;;
+color: rgb(0, 0, 255);</string>
+     </property>
+     <property name="text">
+      <string> 设备描述文件生成工具</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>版本：2.0</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>作者：深圳TCL智能家庭有限公司智能终端小组。</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="text">
+      <string>©深圳TCL智能家庭有限公司。保留所有权利。</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
